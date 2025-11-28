@@ -5,7 +5,8 @@
         "ServerScriptService": {
             "$className": "ServerScriptService",
             "NexusAdminLoader": {
-                "$path": "Loader.server.luau"
+                "$path": "Loader.server.luau",
+                "$ignoreUnknownInstances": true
             },
             "MainModule": {
                 "$path": "./default-standalone.project.json"
